@@ -9,25 +9,25 @@ Usage
 ---------
 
 	asciify=(true/false)
-- Set to true to convert image to ASCII
+1. Set to true to convert image to ASCII
 	
 	asciiresolution=(low/medium/high)
-- Set to high to use all pixels in image, medium to use every other and low to use only one in four pixels.
+2. Set to high to use all pixels in image, medium to use every other and low to use only one in four pixels.
 	
 	asciiscale=(1-5)
-- Set to 1 to maintain the size of the original image, 2 to double the size, etc.
+3. Set to 1 to maintain the size of the original image, 2 to double the size, etc.
 	
 	asciicolor=(true/false)
-- Set to true to render the characters in color.
+4. Set to true to render the characters in color.
 	
 	asciiblock=(true/false)
-- Set to true to render the characters as colored blocks (only if asciicolor=true).
+5. Set to true to render the characters as colored blocks (only if asciicolor=true).
 	
 	asciiinvert=(true/false)
-- Inverts the character lookup table, so bright becomes dark and vice versa.
+6. Inverts the character lookup table, so bright becomes dark and vice versa.
 	
 	asciichars=("...")
-- Use a custom character lookup table, default is " .,:;+i1tfLCG08@".
+7. Use a custom character lookup table, default is " .,:;+i1tfLCG08@".
 
 Demo
 ---------
