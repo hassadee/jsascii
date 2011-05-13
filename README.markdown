@@ -8,31 +8,31 @@ Only every other line in the image is used, since the characters used are twice 
 Usage
 ---------
 
-1. Set to true to convert image to ASCII
+Set to true to convert image to ASCII
 	
 	asciify=(true/false)
 
-2. Set to high to use all pixels in image, medium to use every other and low to use only one in four pixels.
+Set to high to use all pixels in image, medium to use every other and low to use only one in four pixels.
 	
 	asciiresolution=(low/medium/high)
 	
-3. Set to 1 to maintain the size of the original image, 2 to double the size, etc.
+Set to 1 to maintain the size of the original image, 2 to double the size, etc.
 
 	asciiscale=(1-5)
 
-4. Set to true to render the characters in color.
+Set to true to render the characters in color.
 
 	asciicolor=(true/false)
 
-5. Set to true to render the characters as colored blocks (only if asciicolor=true).
+Set to true to render the characters as colored blocks (only if asciicolor=true).
 
 	asciiblock=(true/false)
 
-6. Inverts the character lookup table, so bright becomes dark and vice versa.
+Inverts the character lookup table, so bright becomes dark and vice versa.
 
 	asciiinvert=(true/false)
 
-7. Use a custom character lookup table, default is " .,:;+i1tfLCG08@".
+Use a custom character lookup table, default is " .,:;+i1tfLCG08@".
 
 	asciichars=("...")
 
